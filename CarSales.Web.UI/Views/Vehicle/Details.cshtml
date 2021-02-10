@@ -1,0 +1,85 @@
+﻿@model IEnumerable<CarSales.VehicleManagement.Car>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2></h2>
+
+
+@using (Html.BeginForm("Create", "Vehicle", FormMethod.Get))
+{
+
+    @Html.DropDownList("type", ViewBag.VehicleType as IEnumerable<SelectListItem>, new { @class = "" })
+ 
+            <input type="submit" value="Create" class="btn btn-default" />
+   
+
+}
+
+
+<br />
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.SelectedVehicleType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VehicleYear)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VehicleMake)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VehicleModel)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VehicleEngine)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NoOfDoors)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NoOfWheels)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SelectedBodyType)
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.SelectedVehicleType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VehicleYear)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VehicleMake)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VehicleModel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VehicleEngine)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NoOfDoors)
+            <td>
+                @Html.DisplayFor(modelItem => item.NoOfWheels)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SelectedBodyType)
+            </td>
+        
+            @*<td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.VehicleId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.VehicleId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.VehicleId })
+            </td>*@
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,28 @@
+﻿//// <summary>
+/// ================================================
+/// 
+/// CarSales - The VehicleManagement System
+/// Copyright (c) 2019
+/// Author: Priya Gupta
+/// File: Global.asax.cs 
+/// Description: MvcApplication Class.
+/// 
+/// ================================================
+
+namespace CarSales.Web.UI
+{
+    using System.Web.Mvc;
+    using System.Web.Optimization;
+    using System.Web.Routing;
+
+    public class MvcApplication : System.Web.HttpApplication
+    {
+        protected void Application_Start()
+        {
+            AreaRegistration.RegisterAllAreas();
+            FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
+            RouteConfig.RegisterRoutes(RouteTable.Routes);
+            BundleConfig.RegisterBundles(BundleTable.Bundles);
+        }
+    }
+}
