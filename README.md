@@ -3,7 +3,7 @@
 ## Mini-Carsales application
  - Vehicle Management System
  - Author: Priya Gupta
- - Language: C#
+ - Technology: C#, MVC, JQuery UI
  - Year 2021
 
 # Task
