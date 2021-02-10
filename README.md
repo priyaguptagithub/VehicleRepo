@@ -1,4 +1,4 @@
-# Mini CarSales MVP V1.0 (Cars only)
+# Mini CarSales MVP v1.0 (Cars only)
 
 ## Mini-Carsales application
  - Vehicle Management System
