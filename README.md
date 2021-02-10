@@ -14,10 +14,10 @@ On the home page, we'll show a dropdown with “create car” The create dropdow
 Here are some Screenshots
 
 Home Page: 
-![alt text](https://github.com/priyaguptagithub/VehicleRepo/blob/master/Screenshots/CarSalesScreen1.png "Home Page")
+![alt text](https://github.com/priyaguptagithub/VehicleRepo/blob/main/Screenshots/CarSalesScreen1.png "Home Page")
 
 Vehicles List: 
-![alt text](https://github.com/priyaguptagithub/VehicleRepo/blob/master/Screenshots/CarSalesScreen2.png "Vehicles List")
+![alt text](https://github.com/priyaguptagithub/VehicleRepo/blob/main/Screenshots/CarSalesScreen2.png "Vehicles List")
  
 Create Vehicle Page: 
-![alt text](https://github.com/priyaguptagithub/VehicleRepo/blob/master/Screenshots/CarSalesScreen3.png "Create Vehicle Page")
+![alt text](https://github.com/priyaguptagithub/VehicleRepo/blob/main/Screenshots/CarSalesScreen3.png "Create Vehicle Page")
